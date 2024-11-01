@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #02dafb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: aquamarine;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #7971ff;
+}
+
+.header {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('IMG/hand-drawn-clothing-shoes-and-accessories-for-women-big-set-of-underwear-shoes-coats-bags-hats-in-casual-style-flat-graphic-illustrations-isolated-on-white-background-vector.jpg'), url('IMG/images\ \(1\).jpeg');;
+    background-size: cover;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+.header p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.btn-home {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #7971ff;
+    color: aliceblue;
+    text-decoration: none;
+    background: #7971ff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: none;
+    color: #7971ff;
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sau, .price, .about, .contact {
+    padding: 30px;
+}
+
+.sau {
+    background: #02d1fb;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box {
+    width: 150px;
+    background: #02d1fb;
+    border-radius: 10px;
+    padding: 20px;
+    color: aliceblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+
+.box i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #7971ff;
+}
+
+.box h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.box p {
+    font-size: 14px;
+    color:#f1f1f1;
+}
+
+.product-image {
+    width: 60%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+
+.about {
+    background: #171117;
+    color: aliceblue;
+}
+
+.price {
+    background: #f1f1f1;
+    color: #000;
+}
+
+.contact {
+    background: #171117;
+    color: aliceblue;
+}
+
+.map {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.map img {
+    width: 50%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+    .navbar {
+        display: none;
+    }
+}
